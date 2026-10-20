@@ -9,7 +9,9 @@ coverage/
 benchmark-results/
 *.log
 __pycache__/
-.claude/
+.claude/*
+!.claude/settings.json
+!.claude/hooks/
 .worktrees/
 homepage/public/demo/
 .private/
